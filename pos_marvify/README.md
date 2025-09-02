@@ -84,7 +84,7 @@ It adds a play button overlay on product images that opens an iframe with an int
 
 ## Bug Tracker
 
-Bugs are tracked on [GitHub Issues](https://github.com/Marvify/issues).  
+Bugs are tracked on [GitHub Issues](https://github.com/MarvifySE/odoo/issues).  
 If you encounter problems, please check if the issue has already been reported.  
 If not, create a new issue with detailed steps to reproduce the problem.
 
