@@ -1,0 +1,20 @@
+<templates id="pos_marvify" xml:space="preserve">
+  <t t-name="pos_marvify.MarvifyPatch"
+     t-inherit="pos_self_order.ProductListPage"
+     t-inherit-mode="extension">
+
+    <xpath expr="//article/div[contains(@class, 'product_img')]" position="inside">
+      <t t-if="getMarvifyModelId(product)">
+        <div class="o_marvify_play_button_overlay" t-on-click="(ev) => this.showMarvifyViewer(ev, getMarvifyModelId(product))">
+          <div class="o_marvify_play_button">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M8 5v14l11-7z"></path>
+            </svg>
+          </div>
+        </div>
+      </t>
+    </xpath>
+
+  </t>
+</templates>
+

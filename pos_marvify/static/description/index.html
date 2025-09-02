@@ -1,0 +1,103 @@
+<section class="oe_container">
+  <div class="oe_row oe_spaced">
+    <h2>POS Marvify Photo-3D Viewer</h2>
+    <p>
+      This Odoo module integrates the <b>Marvify Photo-3D Viewer</b> into the
+      <b>POS Self Order kiosk</b>. It adds a play button overlay on product images
+      that opens an iframe with an interactive Photo-3D model.
+    </p>
+  </div>
+</section>
+
+<section class="oe_container oe_spaced">
+  <div class="oe_row">
+    <h3>Features</h3>
+    <ul>
+      <li>Adds a <b>play button</b> on products with a linked Marvify model.</li>
+      <li>Opens an <b>overlay with iframe</b> for the Marvify Photo-3D viewer.</li>
+      <li>Overlay can be closed by:
+        <ul>
+          <li>Clicking the close button</li>
+          <li>Clicking outside the iframe</li>
+          <li><b>Kiosk timeout</b> (overlay auto-closes when the kiosk resets)</li>
+        </ul>
+      </li>
+      <li>Works seamlessly with Odoo <b>POS Self Order</b> module.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="oe_container oe_spaced">
+  <div class="oe_row">
+    <h3>Requirements</h3>
+    <ul>
+      <li>Odoo 18.5+</li>
+      <li>Installed modules:
+        <ul>
+          <li>pos_self_order</li>
+          <li>product</li>
+        </ul>
+      </li>
+      <li>A valid <b>Marvify model ID</b> on your product variant</li>
+    </ul>
+  </div>
+</section>
+
+<section class="oe_container oe_spaced">
+  <div class="oe_row">
+    <h3>Configuration</h3>
+    <ol>
+      <li>Go to <b>Products</b>.</li>
+      <li>Assign a <b>Marvify Model ID</b> to each product variant that should display the Marvify Photo-3D viewer.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="oe_container oe_spaced">
+  <div class="oe_row">
+    <h3>Usage</h3>
+    <ol>
+      <li>Open the <b>POS Self Order kiosk</b>.</li>
+      <li>Products with a model ID will show a <b>play button</b> overlay on their image.</li>
+      <li>Click the play button to open the Marvify Photo-3D viewer in an overlay.</li>
+      <li>Close the viewer by:
+        <ul>
+          <li>Clicking the × button</li>
+          <li>Clicking outside the modal</li>
+          <li>Letting the <b>kiosk timeout</b> reset the session</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="oe_container oe_spaced">
+  <div class="oe_row">
+    <h3>Bug Tracker</h3>
+    <p>
+      Bugs are tracked on <a href="https://github.com/MarvifySE/odoo/issues">GitHub Issues</a>.
+      If you encounter problems, please check if the issue has already been reported.
+      If not, create a new issue with detailed steps to reproduce the problem.
+    </p>
+  </div>
+</section>
+
+<section class="oe_container oe_spaced">
+  <div class="oe_row">
+    <h3>Credits</h3>
+    <p><b>Authors:</b> Marvify AB</p>
+    <p><b>Maintainers:</b> Marvify AB</p>
+  </div>
+</section>
+
+<section class="oe_container oe_spaced">
+  <div class="oe_row">
+    <h3>License</h3>
+    <p>
+      This module is licensed under the <b>LGPL-3</b> license.
+      See the full text here:
+      <a href="https://www.gnu.org/licenses/lgpl-3.0.html">GNU Lesser General Public License v3.0</a>.
+    </p>
+  </div>
+</section>
+
